@@ -5,5 +5,6 @@
     "target": "es5"
   },
   "include": ["./src/**/*"],
-  "exclude": ["node_modules", "**/__tests__/**"]
+  "exclude": ["node_modules", "**/__tests__/**"],
+  "types": ["jest"]
 }
