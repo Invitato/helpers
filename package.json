@@ -1,11 +1,13 @@
 {
   "name": "@invitato/helpers",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Common helpers for Invitato website projects",
-  "main": "index.js",
+  "main": "dist/",
   "scripts": {
     "build": "tsc",
-    "test": "jest"
+    "test": "jest",
+    "clean": "rm -rf dist",
+    "prepare": "npm run clean && npm run build"
   },
   "repository": {
     "type": "git",
