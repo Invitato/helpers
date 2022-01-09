@@ -1,0 +1,31 @@
+{
+  "name": "@invitato/helpers",
+  "version": "0.1.0",
+  "description": "Common helpers for Invitato website projects",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Invitato/helpers.git"
+  },
+  "keywords": [
+    "invitato",
+    "helpers"
+  ],
+  "author": {
+    "name": "Indra Kusuma",
+    "email": "id.indrakusuma@gmail.com",
+    "url": "https://github.com/idindrakusuma"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Invitato/helpers/issues"
+  },
+  "homepage": "https://github.com/Invitato/helpers#readme",
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  }
+}
