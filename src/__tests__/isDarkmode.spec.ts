@@ -1,7 +1,7 @@
 import isDarkmode from '../isDarkmode';
 
 describe('validaing src/isDarkmode', () => {
-  let windowSpy;
+  let windowSpy: any;
 
   beforeEach(() => {
     windowSpy = jest.spyOn(window, 'window', 'get');
