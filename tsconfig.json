@@ -1,10 +1,17 @@
 {
   "compilerOptions": {
-    "outDir": "./built",
+    // Types should go into this directory.
+    // Removing this would place the .d.ts files
+    // next to the .js files
+    "outDir": "dist",
+    // Tells TypeScript to read JS files, as
+    // normally they are ignored as source files
     "allowJs": true,
+    // Generate d.ts files
+    "declaration": true,
     "target": "es5"
   },
   "include": ["./src/**/*"],
   "exclude": ["node_modules", "**/__tests__/**"],
-  "types": ["jest"]
+  "types": ["jest", "node"]
 }
