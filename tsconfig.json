@@ -1,19 +1,14 @@
 {
   "compilerOptions": {
-    // Types should go into this directory.
-    // Removing this would place the .d.ts files
-    // next to the .js files
-    "outDir": "dist",
-    // Tells TypeScript to read JS files, as
-    // normally they are ignored as source files
-    "allowJs": true,
-    // Generate d.ts files
-    "declaration": true,
-    "declarationDir": "dist/@types",
     "target": "es5",
-    "typeRoots": ["node_modules/@types"]
+    "module": "commonjs",
+    "lib": ["es2017", "es7", "es6", "dom"],
+    "declaration": true,
+    "outDir": "dist",
+    "strict": true,
+    "esModuleInterop": true
   },
   "include": ["./src/**/*"],
-  "exclude": ["node_modules", "**/__tests__/**"],
+  "exclude": ["node_modules", "**/__tests__/**", "dist"],
   "types": ["jest", "node"]
 }

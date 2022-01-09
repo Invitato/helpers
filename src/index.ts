@@ -1,2 +1,4 @@
-export * from './getDeviceOS';
-export * from './isDarkmode';
+import getDeviceOS from './getDeviceOS';
+import isDarkmode from './isDarkmode';
+
+export { getDeviceOS, isDarkmode };
