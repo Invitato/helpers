@@ -41,5 +41,8 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "dayjs": "^1.10.7"
+  }
 }
