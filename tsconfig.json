@@ -9,6 +9,6 @@
     "esModuleInterop": true
   },
   "include": ["./src/**/*"],
-  "exclude": ["node_modules", "**/__tests__/**", "dist"],
+  "exclude": ["node_modules", "**/__tests__/**", "**/__mocks_data__/**", "dist"],
   "types": ["jest", "node"]
 }

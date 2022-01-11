@@ -4,7 +4,7 @@
  * @param {string} name
  * @returns {string}
  */
-function getQueryValue(location: Location, queryName: string): string {
+function getQueryValue(location: Pick<Location, 'search'>, queryName: string): string {
   const testedName = queryName.replace(/[[]/, '\\[').replace(/[\]]/, '\\]');
   const regex = new RegExp(`[\\?&]${testedName}=([^&#]*)`);
   const results = regex.exec(location.search);
@@ -12,4 +12,4 @@ function getQueryValue(location: Location, queryName: string): string {
   return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
 }
 
-export default getQueryValue;
+export default getQueryValue || '';
