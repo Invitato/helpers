@@ -1,11 +1,9 @@
-type Anything = string | number | unknown;
-
 /**
  * Fallback function to copy text if navigator clipboard not ready
  * @param {Anything} text
  * @returns {boolean}
  */
-function fallbackCopyTextToClipboard(text: Anything): boolean {
+function fallbackCopyTextToClipboard(text: string): boolean {
   const textArea = document.createElement('textarea');
   let result = false;
   textArea.value = text;
@@ -35,7 +33,7 @@ function fallbackCopyTextToClipboard(text: Anything): boolean {
  * @param {Anything} text
  * @returns {boolean}
  */
-async function copyTextToClipboard(text: Anything): Promise<boolean> {
+async function copyTextToClipboard(text: string): Promise<boolean> {
   let result = false;
 
   if (!navigator.clipboard) {
