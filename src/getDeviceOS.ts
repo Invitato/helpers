@@ -14,7 +14,7 @@ type OSResult = 'android' | 'ios' | 'unknown';
  * @returns {OSResult}
  */
 function getMobileOperatingSystem(): OSResult {
-  var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+  const userAgent = navigator.userAgent || navigator.vendor || window.opera;
 
   if (/android/i.test(userAgent)) {
     return 'android';
