@@ -1,4 +1,4 @@
-name: Build and Test @invitato/helpers
+name: Build and Test
 
 on:
   push:
@@ -12,15 +12,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: installing packages..
+      - name: Step 1 - Installing dependencies..
         uses: borales/actions-yarn@v2.3.0
         with:
           cmd: install
-      - name: Building pacakges..
+      - name: Step 2 - Building packages..
         uses: borales/actions-yarn@v2.3.0
         with:
           cmd: build
-      - name: Running test..
+      - name: Step 3 - Running the test..
         uses: borales/actions-yarn@v2.3.0
         with:
           cmd: test
