@@ -5,7 +5,7 @@ import canUseDOM from '../canUseDOM';
  * @param {string} KEY
  * @returns {any | undefined}
  */
-function getItem(KEY: string): any | undefined {
+function getItem(KEY: string): any {
   try {
     if (canUseDOM) {
       const result = localStorage.getItem(KEY);
