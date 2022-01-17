@@ -1,6 +1,6 @@
 {
   "name": "@invitato/helpers",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Common helpers for Invitato website projects",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
