@@ -201,35 +201,35 @@ _Kami yang berbahagia,_
 *{{BOY_NAME_SHORT}}, {{GIRL_NAME_SHORT}} & keluarga*
   `,
   EN_MUSLIM_ANNOUNCEMENT: `Bismillahirrahmanirrahim
-  Assalamualaikum warahmatullahi wabarakatuh
-  
-  Dear our beloved family & friends,
-  *{{GUEST_NAME}}*
-  
-  Together with the blessing of Allah Subhanahu wa Ta’ala, we joyfully announce the upcoming marriage of:
-  
-  *{{BOY_NAME}}*
-  _The son of Mr. {{BOY_FATHER_NAME}} and Mrs. {{BOY_MOTHER_NAME}}_
-   &
-  *{{GIRL_NAME}}*
-  _The daughter of Mr. {{GIRL_FATHER_NAME}} and Mrs. {{GIRL_MOTHER_NAME}}_
-  
-  Together with the families, we will celebrate the wedding on {{BROADCAST_WEDDING_DAY}}.
-  
-  Please click the Website Announcement link below for more information about our wedding details:
-  {{LINK}}
-  
-  *) Please take a note:
-  Due to restrictions on gathering sizes, we are unable to celebrate with you in person.
-  
-  Please know that your presence will be sincerely missed and we hope that you will be able to celebrate with us from afar.
-  
-  Thank you for your kind words and prayers. We wish your understanding for all health protocols restrictions.
-  
-  Wassalamualaikum Warahmatullahi Wabarakatuh
-  
-  _With love,_ 
-  *{{BOY_NAME_SHORT}}, {{GIRL_NAME_SHORT}} & family*
+Assalamualaikum warahmatullahi wabarakatuh
+
+Dear our beloved family & friends,
+*{{GUEST_NAME}}*
+
+Together with the blessing of Allah Subhanahu wa Ta’ala, we joyfully announce the upcoming marriage of:
+
+*{{BOY_NAME}}*
+_The son of Mr. {{BOY_FATHER_NAME}} and Mrs. {{BOY_MOTHER_NAME}}_
+  &
+*{{GIRL_NAME}}*
+_The daughter of Mr. {{GIRL_FATHER_NAME}} and Mrs. {{GIRL_MOTHER_NAME}}_
+
+Together with the families, we will celebrate the wedding on {{BROADCAST_WEDDING_DAY}}.
+
+Please click the Website Announcement link below for more information about our wedding details:
+{{LINK}}
+
+*) Please take a note:
+Due to restrictions on gathering sizes, we are unable to celebrate with you in person.
+
+Please know that your presence will be sincerely missed and we hope that you will be able to celebrate with us from afar.
+
+Thank you for your kind words and prayers. We wish your understanding for all health protocols restrictions.
+
+Wassalamualaikum Warahmatullahi Wabarakatuh
+
+_With love,_ 
+*{{BOY_NAME_SHORT}}, {{GIRL_NAME_SHORT}} & family*
   
   `,
 };
