@@ -12,10 +12,10 @@ Kepada keluarga & teman kami tercinta,
 Bersama rahmat dan berkat Tuhan yang telah menyatukan kami, pada hari ini kami berniat ingin mengundang Bapak/Ibu/Saudara/i untuk hadir dan turut memberikan doa secara langsung dalam acara kami: 
 
 *{{BOY_NAME}}*
-_Putra dari {{BOY_FATHER_NAME}} dan {{BOY_MOTHER_NAME}}_
+_Putra dari Bapak {{BOY_FATHER_NAME}} dan Ibu {{BOY_MOTHER_NAME}}_
   & 
 *{{GIRL_NAME}}*
-_Putri dari {{GIRL_FATHER_NAME}} dan {{GIRL_MOTHER_NAME}}_
+_Putri dari Bapak {{GIRL_FATHER_NAME}} dan Ibu {{GIRL_MOTHER_NAME}}_
 
 Acara pernikahan kami akan dilaksanakan pada hari *{{BROADCAST_WEDDING_DAY}}* di {{BROADCAST_WEDDING_LOCATION}}.
 
