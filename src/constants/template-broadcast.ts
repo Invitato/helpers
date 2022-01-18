@@ -69,7 +69,7 @@ _Putra dari Bapak {{BOY_FATHER_NAME}} dan Ibu {{BOY_MOTHER_NAME}}_
 *{{GIRL_NAME}}* 
 _Putri dari Bapak {{GIRL_FATHER_NAME}} dan Ibu {{GIRL_MOTHER_NAME}}_
 
-Insha Allah acara pernikahan kami akan dilaksanakan pada hari *{{BROADCAST_WEDDING_DAY}}* di Hotel Vasa Surabaya.
+Insha Allah acara pernikahan kami akan dilaksanakan pada hari *{{BROADCAST_WEDDING_DAY}}* di {{BROADCAST_WEDDING_LOCATION}}.
 
 Tanpa mengurangi rasa hormat, mohon klik link dibawah ini untuk mendapatkan informasi lengkap mengenai acara pernikahan kami:
 {{LINK}}
