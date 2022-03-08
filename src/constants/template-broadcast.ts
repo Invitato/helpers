@@ -4,10 +4,11 @@
  */
 export const MESSAGE = {
   // for Bahasa Indonesia invitation - general
-  ID_GENERAL_INVITATION: `Dengan hormat.
-
-Kepada keluarga & teman kami tercinta,  
+  ID_GENERAL_INVITATION: `Yth. Bapak/Ibu/Saudara/i,  
 *{{GUEST_NAME}}*
+
+*Tanpa mengurangi rasa hormat, mohon klik link dibawah ini untuk mendapatkan informasi lengkap mengenai acara pernikahan kami:*
+{{LINK}}
 
 Bersama rahmat dan berkat Tuhan yang telah menyatukan kami, pada hari ini kami berniat ingin mengundang Bapak/Ibu/Saudara/i untuk hadir dan turut memberikan doa secara langsung dalam acara kami: 
 
@@ -19,9 +20,6 @@ _Putri dari Bapak {{GIRL_FATHER_NAME}} dan Ibu {{GIRL_MOTHER_NAME}}_
 
 Acara pernikahan kami akan dilaksanakan pada hari *{{BROADCAST_WEDDING_DAY}}* di {{BROADCAST_WEDDING_LOCATION}}.
 
-*Tanpa mengurangi rasa hormat, mohon klik link dibawah ini untuk mendapatkan informasi lengkap mengenai acara pernikahan kami:*
-{{LINK}}
-
 Merupakan suatu kehormatan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir dan mendoakan secara langsung dalam acara pernikahan kami. 
 
 Mohon pengertiannya untuk segala protokol kesehatan yang berlaku. Semoga kita semua selalu dalam keadaan sehat. 
@@ -32,8 +30,11 @@ _Kami yang berbahagia,_
 *{{BOY_NAME_SHORT}}, {{GIRL_NAME_SHORT}} & keluarga*
   `,
   // for English invitation - general
-  EN_GENERAL_INVITATION: `Dear our beloved family & friends, 
+  EN_GENERAL_INVITATION: `Dear Mr/Ms/Mrs, 
 *{{GUEST_NAME}}* 
+
+Please click the Website Invitation link below for more information about our wedding details: 
+{{LINK}}
 
 Together with the grace and blessing of God, we cordially request the honour of your presence at the wedding celebration of: 
 
@@ -45,9 +46,6 @@ _The daughter of Mr. {{GIRL_FATHER_NAME}} and Mrs. {{GIRL_MOTHER_NAME}}_
 
 Together with the families, we will celebrate the wedding on *{{BROADCAST_WEDDING_DAY}}* at {{BROADCAST_WEDDING_LOCATION}}. 
 
-Please click the Website Invitation link below for more information about our wedding details: 
-{{LINK}}
-
 We wish your understanding for all health protocols restrictions. 
 See you on our wedding day!
 
@@ -58,8 +56,11 @@ _With love,_
   ID_MUSLIM_INVITATION: `Bismillahirrahmanirrahim 
 Assalamualaikum warahmatullahi wabarakatuh 
 
-Kepada keluarga & teman kami tercinta,  
+Yth. Bapak/Ibu/Saudara/i,  
 *{{GUEST_NAME}}* 
+
+Tanpa mengurangi rasa hormat, mohon klik link dibawah ini untuk mendapatkan informasi lengkap mengenai acara pernikahan kami:
+{{LINK}}
 
 Dengan memohon rahmat dan ridho Allah Subhanahu wa Ta’ala, kami berniat ingin mengundang Bapak/Ibu/Saudara/i untuk hadir dan turut memberikan doa restu secara langsung dalam acara kami: 
 
@@ -70,9 +71,6 @@ _Putra dari Bapak {{BOY_FATHER_NAME}} dan Ibu {{BOY_MOTHER_NAME}}_
 _Putri dari Bapak {{GIRL_FATHER_NAME}} dan Ibu {{GIRL_MOTHER_NAME}}_
 
 Insha Allah acara pernikahan kami akan dilaksanakan pada hari *{{BROADCAST_WEDDING_DAY}}* di {{BROADCAST_WEDDING_LOCATION}}.
-
-Tanpa mengurangi rasa hormat, mohon klik link dibawah ini untuk mendapatkan informasi lengkap mengenai acara pernikahan kami:
-{{LINK}}
 
 Merupakan suatu kehormatan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir dan mendoakan secara langsung dalam acara pernikahan kami. 
 
@@ -88,8 +86,11 @@ _Kami yang berbahagia,_
   EN_MUSLIM_INVITATION: `Bismillahirrahmanirrahim 
 Assalamualaikum warahmatullahi wabarakatuh 
 
-Dear our beloved family & friends, 
+Dear Mr/Ms/Mrs, 
 *{{GUEST_NAME}}* 
+
+Please click the Website Invitation link below for more information about our wedding details: 
+{{LINK}}
 
 Together with the blessing of Allah Subhanahu wa Ta’ala, we cordially request the honour of your presence at the wedding celebration of: 
 
@@ -100,9 +101,6 @@ _The son of Mr. {{BOY_FATHER_NAME}} and Mrs. {{BOY_MOTHER_NAME}}_
 _The daughter of Mr. {{GIRL_FATHER_NAME}} and Mrs. {{GIRL_MOTHER_NAME}}_
 
 Together with the families, we will celebrate the wedding on *{{BROADCAST_WEDDING_DAY}}* at {{BROADCAST_WEDDING_LOCATION}}. 
-
-Please click the Website Invitation link below for more information about our wedding details: 
-{{LINK}}
 
 We wish your understanding for all health protocols restrictions. 
 See you on our wedding day!
@@ -115,10 +113,11 @@ _With love,_
   // -------------------------
   // Announcement broadcast
   // -------------------------
-  ID_GENERAL_ANNOUNCEMENT: `Dengan hormat.
-
-Kepada keluarga & teman kami tercinta,  
+  ID_GENERAL_ANNOUNCEMENT: `Yth. Bapak/Ibu/Saudara/i, 
 *{{GUEST_NAME}}* 
+
+Mohon klik link website announcement kami dibawah ini sebagai detail pemberitahuan:
+{{LINK}}
 
 Bersama rahmat dan berkat Tuhan yang telah menyatukan kami dan tanpa mengurangi rasa hormat, kami berniat ingin mengumumkan kepada Bapak/Ibu/Saudara/i mengenai acara pernikahan kami: 
 
@@ -130,9 +129,6 @@ _Putri dari Bapak {{GIRL_FATHER_NAME}} dan Ibu {{GIRL_MOTHER_NAME}}_
 
 Acara pernikahan kami akan dilaksanakan pada hari *{{BROADCAST_WEDDING_DAY}}*.
 
-Mohon klik link website announcement kami dibawah ini sebagai detail pemberitahuan:
-{{LINK}}
-
 Berkaitan dengan salah satu pemberlakuan protokol kesehatan, yakni pembatasan jumlah tamu, kami memohon maaf jika belum bisa mengundang Bapak/Ibu/Saudara/i untuk hadir secara langsung. 
 
 Meski demikian, di masa pandemi saat ini hal terpenting adalah sama-sama saling menjaga agar kita semua selalu sehat dan senantiasa dalam lindungan Tuhan.
@@ -143,8 +139,11 @@ Mohon pengertiannya, terima kasih.
 _Kami yang berbahagia,_
 *{{BOY_NAME_SHORT}}, {{GIRL_NAME_SHORT}} & keluarga*
   `,
-  EN_GENERAL_ANNOUNCEMENT: `Dear our beloved family & friends, 
+  EN_GENERAL_ANNOUNCEMENT: `Dear Mr/Ms/Mrs, 
 *{{GUEST_NAME}}* 
+
+Please click the Website Announcement link below for more information about our wedding details: 
+{{LINK}}
 
 Together with the grace and blessing of God, we joyfully announce the upcoming marriage of: 
 
@@ -155,9 +154,6 @@ _The son of Mr. {{BOY_FATHER_NAME}} and Mrs. {{BOY_MOTHER_NAME}}_
 _The daughter of Mr. {{GIRL_FATHER_NAME}} and Mrs. {{GIRL_MOTHER_NAME}}_
 
 Together with the families, we will celebrate the wedding on {{BROADCAST_WEDDING_DAY}}.
-
-Please click the Website Announcement link below for more information about our wedding details: 
-{{LINK}}
 
 *) Please take a note: 
 Due to restrictions on gathering sizes, we are unable to celebrate with you in person. 
@@ -172,8 +168,11 @@ _With love,_
   ID_MUSLIM_ANNOUNCEMENT: `Bismillahirrahmanirrahim 
 Assalamualaikum warahmatullahi wabarakatuh 
 
-Kepada keluarga & teman kami tercinta, 
+Yth. Bapak/Ibu/Saudara/i, 
 *{{GUEST_NAME}}* 
+
+Mohon klik link website _announcement_ kami dibawah ini sebagai detail pemberitahuan:
+{{LINK}}
 
 Dengan memohon rahmat dan ridho Allah Subhanahu wa Ta’ala dan tanpa mengurangi rasa hormat, kami berniat ingin mengumumkan kepada Bapak/Ibu/Saudara/i mengenai acara pernikahan kami: 
 
@@ -184,9 +183,6 @@ _Putra dari Bapak {{BOY_FATHER_NAME}} dan Ibu {{BOY_MOTHER_NAME}}_
 _Putri dari Bapak {{GIRL_FATHER_NAME}} dan Ibu {{GIRL_MOTHER_NAME}}_
 
 Insha Allah acara pernikahan kami akan dilaksanakan pada hari *{{BROADCAST_WEDDING_DAY}}*.
-
-Mohon klik link website announcement kami dibawah ini sebagai detail pemberitahuan:
-{{LINK}}
 
 Berkaitan dengan salah satu pemberlakuan protokol kesehatan, yakni pembatasan jumlah tamu, kami memohon maaf jika belum bisa mengundang Bapak/Ibu/Saudara/i untuk hadir secara langsung. 
 
@@ -203,8 +199,11 @@ _Kami yang berbahagia,_
   EN_MUSLIM_ANNOUNCEMENT: `Bismillahirrahmanirrahim
 Assalamualaikum warahmatullahi wabarakatuh
 
-Dear our beloved family & friends,
+Dear Mr/Ms/Mrs,
 *{{GUEST_NAME}}*
+
+Please click the Website Announcement link below for more information about our wedding details:
+{{LINK}}
 
 Together with the blessing of Allah Subhanahu wa Ta’ala, we joyfully announce the upcoming marriage of:
 
@@ -215,9 +214,6 @@ _The son of Mr. {{BOY_FATHER_NAME}} and Mrs. {{BOY_MOTHER_NAME}}_
 _The daughter of Mr. {{GIRL_FATHER_NAME}} and Mrs. {{GIRL_MOTHER_NAME}}_
 
 Together with the families, we will celebrate the wedding on {{BROADCAST_WEDDING_DAY}}.
-
-Please click the Website Announcement link below for more information about our wedding details:
-{{LINK}}
 
 *) Please take a note:
 Due to restrictions on gathering sizes, we are unable to celebrate with you in person.
