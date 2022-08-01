@@ -59,6 +59,12 @@ const VENDOR_LOGO = {
     whiteLogo: `https://user-images.githubusercontent.com/106049860/177788874-72faa5d8-5ecc-4ba0-be61-3a4c820d1a06.png`,
     igUrl: `https://www.instagram.com/aksara.organizer/?hl=en`
   },
+  twins: {
+    name: `Twins Organizer`,
+    logo: `https://user-images.githubusercontent.com/106049860/182165492-8b936d8c-b56a-4704-afab-a4c92270bb45.png`,
+    whiteLogo: `https://user-images.githubusercontent.com/106049860/182165492-8b936d8c-b56a-4704-afab-a4c92270bb45.png`,
+    igUrl: `https://www.instagram.com/twins.organizer`
+  },
 }
 
 export default VENDOR_LOGO;
