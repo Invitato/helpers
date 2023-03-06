@@ -66,7 +66,7 @@ const BANK_LOGO = {
   ocbc: {
     text: 'OCBC Bank',
     logo: `https://user-images.githubusercontent.com/62318101/223007426-80e82ea3-2ff8-409b-86c7-d0734cf9f883.png`,
-  }
+  },
 };
 
 export default BANK_LOGO;
