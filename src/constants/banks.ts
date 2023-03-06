@@ -63,6 +63,10 @@ const BANK_LOGO = {
     text: 'Bank Permata',
     logo: `https://user-images.githubusercontent.com/10141928/148952398-e26efa80-55da-486d-aaa3-8fe01318fe76.png`,
   },
+  ocbc: {
+    text: 'OCBC Bank',
+    logo: `https://user-images.githubusercontent.com/62318101/223007426-80e82ea3-2ff8-409b-86c7-d0734cf9f883.png`,
+  }
 };
 
 export default BANK_LOGO;
